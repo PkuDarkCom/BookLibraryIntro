@@ -13,8 +13,9 @@ Java期中作业家庭图书馆说明
 ## 系统设计
 ### 功能模块设计
 ### 数据结构设计
-书籍存储结构
+
 <table>
+<thead><tr><th>书籍存储结构</th></tr></thead>
 <tr><th>字段名</th><th>变量</th><th>字段类型</th></tr>
 <tr><td>索引（主键）</td><td>id</td><td>int</td></tr>
 <tr><td>ISBN</td><td>isbn13</td><td>int</td></tr>
