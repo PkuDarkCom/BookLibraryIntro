@@ -38,6 +38,8 @@ Java期中作业家庭图书馆说明
 <tr><td>书籍简介</td><td>summary</td><td>text</td></tr>
 <tr><td>目录</td><td>catalog</td><td>text</td></tr>
 </table>
+
+
 #### 书架存储结构
 <table>
 <tr><th>字段名</th><th>变量</th><th>字段类型</th></tr>
