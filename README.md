@@ -15,7 +15,7 @@ Java期中作业家庭图书馆说明
 ### 数据结构设计
 书籍存储结构
 <table>
-<tr><td>字段名</td><td>变量</td><td>字段类型</td></tr>
+<tr><th>字段名</th><th>变量</th><th>字段类型</th></tr>
 <tr><td>索引（主键）</td><td>id</td><td>int</td></tr>
 <tr><td>ISBN</td><td>isbn13</td><td>int</td></tr>
 <tr><td>存储书架</td><td>storage</td><td>int</td></tr>
@@ -39,7 +39,7 @@ Java期中作业家庭图书馆说明
 </table>
 书架存储结构
 <table>
-<tr><td>字段名</td><td>变量</td><td>字段类型</td></tr>
+<tr><th>字段名</th><th>变量</th><th>字段类型</th></tr>
 <tr><td>书架索引（主键）</td><td>id</td><td>int</td></tr>
 <tr><td>书架描述</td><td>desc</td><td>Text</td></tr>
 </table>
