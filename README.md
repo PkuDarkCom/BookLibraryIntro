@@ -14,11 +14,10 @@ Java期中作业家庭图书馆说明
 ### 功能模块设计
 ### 数据结构设计
 ### API设计
-### API设计
 Api采用RESTFul 风格设计<br>
 实现书籍信息的增删改查,返回格式为json
 
-#### [获取书籍信息](https://github.com/PkuDarkCom/BookLibraryIntro/blob/master/Apis/%E8%8E%B7%E5%8F%96%E4%B9%A6%E7%B1%8D%E4%BF%A1%E6%81%AF.md)
+[获取书籍信息](https://github.com/PkuDarkCom/BookLibraryIntro/blob/master/Apis/%E8%8E%B7%E5%8F%96%E4%B9%A6%E7%B1%8D%E4%BF%A1%E6%81%AF.md)
 
 ## 实现与测试
 ### 关键技术实现
