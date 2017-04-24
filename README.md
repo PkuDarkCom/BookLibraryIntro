@@ -56,6 +56,14 @@ Java期中作业家庭图书馆说明
 - **ISBN的图像识别**（选做）
 	* 输入一张图片 输出isbn号
 
+- **用户系统**（选做）
+		* 增加用户
+		* 删除用户
+		* 修改用户
+		* 用户登录登出
+		* 用户的阅读状态分开记录
+		* 用户操作日志
+
 #### 开发工具
 #### 应用平台
 
@@ -101,8 +109,8 @@ Java期中作业家庭图书馆说明
 Api采用RESTFul 风格设计<br>
 实现书籍信息的增删改查,返回格式为json
 
-[获取书籍信息](https://github.com/PkuDarkCom/BookLibraryIntro/blob/master/Apis/%E8%8E%B7%E5%8F%96%E4%B9%A6%E7%B1%8D%E4%BF%A1%E6%81%AF.md)<br>
-[获取书籍详细信息](https://github.com/PkuDarkCom/BookLibraryIntro/blob/master/Apis/%E8%8E%B7%E5%8F%96%E4%B9%A6%E7%B1%8D%E4%BF%A1%E6%81%AF.md)<br>
+[获取书籍信息](https://github.com/PkuDarkCom/BookLibraryIntro/wiki/API%EF%BC%9A%E8%8E%B7%E5%8F%96%E4%B9%A6%E7%B1%8D%E4%BF%A1%E6%81%AF)<br>
+[图书查询](https://github.com/PkuDarkCom/BookLibraryIntro/wiki/API%EF%BC%9A%E5%9B%BE%E4%B9%A6%E6%9F%A5%E8%AF%A2)<br>
 [增加图书](https://github.com/PkuDarkCom/BookLibraryIntro/blob/master/Apis/%E8%8E%B7%E5%8F%96%E4%B9%A6%E7%B1%8D%E4%BF%A1%E6%81%AF.md)<br>
 [修改图书](https://github.com/PkuDarkCom/BookLibraryIntro/blob/master/Apis/%E8%8E%B7%E5%8F%96%E4%B9%A6%E7%B1%8D%E4%BF%A1%E6%81%AF.md)<br>
 [删除图书](https://github.com/PkuDarkCom/BookLibraryIntro/blob/master/Apis/%E8%8E%B7%E5%8F%96%E4%B9%A6%E7%B1%8D%E4%BF%A1%E6%81%AF.md)<br>
