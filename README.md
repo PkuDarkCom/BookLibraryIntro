@@ -6,23 +6,20 @@ Java期中作业家庭图书馆说明
 ## 概述
 
 #### 小组构成
-产品管理组：[**张旭**](https://github.com/orgs/PkuDarkCom/people/zhangxu273)<br>
-前端设计小组：**禹单单**，[**于飞**](https://github.com/orgs/PkuDarkCom/people/mumuCode)<br>
-后端设计小组：[**陈亨**](https://github.com/orgs/PkuDarkCom/people/adreamteama)，[任荣刚](https://github.com/orgs/PkuDarkCom/people/renrg)<br>
-测试组：**赵孝锋**，刘艳波，武小强，蔡先慧<br>
+- 产品管理组：[**张旭**](https://github.com/orgs/PkuDarkCom/people/zhangxu273)<br>
+- 前端设计小组：**禹单单**，[**于飞**](https://github.com/orgs/PkuDarkCom/people/mumuCode)<br>
+- 后端设计小组：[**陈亨**](https://github.com/orgs/PkuDarkCom/people/adreamteama)，[任荣刚](https://github.com/orgs/PkuDarkCom/people/renrg)<br>
+- 测试组：**赵孝锋**，刘艳波，武小强，蔡先慧<br>
 
 #### 小组分工
-**产品管理组**<br>
-负责全局进度把控，数据结构设计，功能模块设计，文档的编写与维护<br>
-
-**前端设计小组**<br>
+- **前端设计小组**<br>
 负责把服务器传来的内容通过web页面展示出来，以及移动端的适配<br>
 时间允许 可以 顺手做一个 微信小程序展示<br>
 
-**后端设计小组：**<br>
+- **后端设计小组：**<br>
 这次java作业的主力，负责业务逻辑的编写，以及提供接口给前端使用<br>
 
-**测试小组：**<br>
+- **测试小组：**<br>
 对产品进行验收测试 提出修改意见<br>
 
 #### 设计内容
@@ -36,11 +33,8 @@ Java期中作业家庭图书馆说明
 	* 按书架查询该书架上的所有图书
 - **书籍管理模块**
 
-	* 创建书籍数据<br>
-		每本书在数据库中有唯一id当索引，区分书籍主要通过isbn号，因为是家庭图书管理，所以我们寻求尽量简化的录入方式
-		经讨论我们决定 通过isbn写一个爬虫 自动采集豆瓣网的图书数据 自动填充该图书的详细信息 并提供二次修改的接口
-	* 编辑书籍数据<br>
-		二次编辑书籍数据
+	* 创建书籍数据
+	* 编辑书籍数据
 	* 删除书籍数据
 	* 按ISBN查询书籍数据
 	* 按标题查询书籍数据
@@ -50,11 +44,11 @@ Java期中作业家庭图书馆说明
 	* 按TAG查询书籍数据数据
 	* 按阅读状态书籍查询数据
 	* 按是否是电子书查询书籍数据
-    * 按评分排序筛选书籍数据
+  * 按评分排序筛选书籍数据
 
 - **豆瓣爬虫模块**
 	* 根据isbn从豆瓣获取图书数据
-    * 获取数据后入库
+  * 获取数据后入库
 
 - **ISBN的图像识别**（选做）
 	* 输入一张图片 输出isbn号
