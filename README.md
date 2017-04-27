@@ -122,34 +122,14 @@ Api采用RESTFul 风格设计<br>
 
 ## 开发日志
 <table>
-    <tr>
-        <td>2017.4.18</td>
-		<td>立项</td>
-    </tr>
-    <tr>
-        <td></td>
-		<td>模块设计</td>
-    </tr>
-    <tr>
-        <td></td>
-		<td>服务器环境部署</td>
-    </tr>
-    <tr>
-        <td></td>
-		<td>人员分工确定</td>
-    </tr>
-    <tr>
-        <td>2017.4.24</td>
-		<td>设计数据表结构</td>
-    </tr>
-    <tr>
-        <td></td>
-		<td>设计api</td>
-    </tr>
-	    <tr>
-        <td></td>
-		<td>Github建立组织与仓库</td>
-    </tr>
+    <tr><td>2017.4.18</td><td>立项</td></tr>
+    <tr><td></td><td>模块设计</td></tr>
+    <tr><td></td><td>服务器环境部署</td></tr>
+    <tr><td></td><td>人员分工确定</td></tr>
+    <tr><td>2017.4.24</td><td>设计数据表结构</td></tr>
+    <tr><td></td><td>设计api</td></tr>
+    <tr><td></td><td>Github建立组织与仓库</td></tr>
+    <tr><td>2017.4.27</td><td>提交原型设计</td></tr>
 </table>
 
 ## 总结
