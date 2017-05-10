@@ -72,38 +72,70 @@ Java期中作业家庭图书馆说明
 #### 功能模块设计
 #### 数据结构设计
 
-###### 书籍存储结构
+
+
+###### 用户表
 <table>
 <tr><th>字段名</th><th>变量</th><th>字段类型</th></tr>
-<tr><td>索引（主键）</td><td>id</td><td>int</td></tr>
-<tr><td>ISBN</td><td>isbn13</td><td>int</td></tr>
-<tr><td>存储书架</td><td>storage</td><td>int</td></tr>
-<tr><td>电子书与否</td><td>is_ebook</td><td>bool</td></tr>
-<tr><td>阅读与否</td><td>is_read</td><td>bool</td></tr>
-<tr><td>标题</td><td>title</td><td>text</td></tr>
-<tr><td>原文标题</td><td>origin_title</td><td>text</td></tr>
-<tr><td>封面图</td><td>image</td><td>text</td></tr>
-<tr><td>作者（可以多人）</td><td>author</td><td>text</td></tr>
-<tr><td>译者（可以多人）</td><td>translator</td><td>text</td></tr>
-<tr><td>出版社</td><td>publisher</td><td>text</td></tr>
-<tr><td>出版日期</td><td>pubdate</td><td>text</td></tr>
-<tr><td>豆瓣评分</td><td>rating</td><td>text</td></tr>
-<tr><td>标签（可以多个）</td><td>tags</td><td>text</td></tr>
-<tr><td>装帧</td><td>binding</td><td>text</td></tr>
-<tr><td>价格</td><td>price</td><td>text</td></tr>
-<tr><td>页数</td><td>pages</td><td>text</td></tr>
-<tr><td>作者简介</td><td>author_intro</td><td>text</td></tr>
-<tr><td>书籍简介</td><td>summary</td><td>text</td></tr>
-<tr><td>目录</td><td>catalog</td><td>text</td></tr>
+<tr><td>uuid</td><td>uuid</td><td>varchar(32)</td></tr>
+<tr><td>登录名</td><td>login_name</td><td>varchar(32)</td></tr>
+<tr><td>登录密码</td><td>login_pwd</td><td>varchar(32)</td></tr>
+<tr><td>用户状态</td><td>status</td><td>varchar(2)</td></tr>
+<tr><td>注册手机号</td><td>phone_number</td><td>varchar(11)</td></tr>
+<tr><td>创建时间</td><td>create_time</td><td>varchar(20)</td></tr>
+<tr><td>更新时间</td><td>update_time</td><td>varchar(20)</td></tr>
 </table>
 
 
 ###### 书架存储结构
 <table>
 <tr><th>字段名</th><th>变量</th><th>字段类型</th></tr>
-<tr><td>书架索引（主键）</td><td>id</td><td>int</td></tr>
-<tr><td>书架描述</td><td>desc</td><td>Text</td></tr>
+<tr><td>uuid</td><td>uuid</td><td>varchar(32)</td></tr>
+<tr><td>书架名称</td><td>shelf_name</td><td>varchar(16)</td></tr>
+<tr><td>书架类型</td><td>shelf_type</td><td>varchar(2)</td></tr>
+<tr><td>书架状态</td><td>status</td><td>varchar(2)</td></tr>
+<tr><td>创建时间</td><td>create_time</td><td>varchar(20)</td></tr>
+<tr><td>更新时间</td><td>update_time</td><td>varchar(20)</td></tr>
 </table>
+
+
+###### 用户图书关联表
+<table>
+<tr><th>字段名</th><th>变量</th><th>字段类型</th></tr>
+<tr><td>uuid</td><td>uuid</td><td>varchar(32)</td></tr>
+<tr><td>用户编号</td><td>user_uuid</td><td>varchar(32)</td></tr>
+<tr><td>图书编号</td><td>book_uuid</td><td>varchar(32)</td></tr>
+<tr><td>阅读状态</td><td>read_status</td><td>varchar(2)</td></tr>
+<tr><td>创建时间</td><td>create_time</td><td>varchar(20)</td></tr>
+</table>
+
+
+
+###### 书籍存储结构
+<table>
+<tr><th>字段名</th><th>变量</th><th>字段类型</th></tr>
+<tr><td>uuid</td><td>uuid</td><td>varchar(32)</td></tr>
+<tr><td>图书编码</td><td>isbn13</td><td>varchar(32)</td></tr>
+<tr><td>图书标题</td><td>book_title</td><td>varchar(128)</td></tr>
+<tr><td>原文标题</td><td>origin_title</td><td>varchar(128)</td></tr>
+<tr><td>封面图</td><td>image</td><td>varchar(128)</td></tr>
+<tr><td>作者</td><td>author</td><td>varchar(128)</td></tr>
+<tr><td>译者</td><td>translator</td><td>varchar(128)</td></tr>
+<tr><td>出版社</td><td>press</td><td>varchar(128)</td></tr>
+<tr><td>出版日期</td><td>publication_date</td><td>varchar(32)</td></tr>
+<tr><td>豆瓣评分</td><td>rating</td><td>varchar(10)</td></tr>
+<tr><td>标签</td><td>tags</td><td>varchar(128)</td></tr>
+<tr><td>装帧</td><td>binding</td><td>varchar(32)</td></tr>
+<tr><td>售价</td><td>price</td><td>varchar(16)</td></tr>
+<tr><td>页数</td><td>pages</td><td>varchar(16)</td></tr>
+<tr><td>作者简介</td><td>author_intro</td><td>text(4000)</td></tr>
+<tr><td>书籍简介</td><td>summary</td><td>text(4000)</td></tr>
+<tr><td>目录</td><td>catalog</td><td>text(4000)</td></tr>
+<tr><td>存储书架</td><td>book_shelf</td><td>varchar(2)</td></tr>
+<tr><td>电子书与否</td><td>is_ebook</td><td>varchar(2)</td></tr>
+<tr><td>阅读与否</td><td>is_read</td><td>varchar(2)</td></tr>
+</table>
+
 
 
 #### API设计
