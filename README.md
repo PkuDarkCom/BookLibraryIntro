@@ -10,7 +10,7 @@ Java期中作业家庭图书馆说明
 - 产品管理组：[**张旭**](https://github.com/orgs/PkuDarkCom/people/zhangxu273)<br>
 - 前端设计小组：[**禹单单**](https://github.com/orgs/PkuDarkCom/people/lubeibi)，[**于飞**](https://github.com/orgs/PkuDarkCom/people/mumuCode)<br>
 - 后端设计小组：[**陈亨**](https://github.com/orgs/PkuDarkCom/people/adreamteama)，[任荣刚](https://github.com/orgs/PkuDarkCom/people/renrg)<br>
-- 测试组：**赵孝锋**，刘艳波，武小强，蔡先慧,顼伟燕,张之沄,范高林<br>
+- 测试组：**赵孝锋**，刘艳波，武小强，蔡先慧，顼伟燕，张之沄，范高林<br>
 
 #### 小组分工
 - **产品管理组**<br>
