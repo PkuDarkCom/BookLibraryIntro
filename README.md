@@ -28,6 +28,22 @@ Java期中作业家庭图书馆说明
 
 图书的各种信息统计
 
+#### 安装说明
+1. 本项目是基于springBoot框架搭建的maven工程，运行本工程需事先安装maven
+
+2. 开发工具为eclipse,将工程导入eclipse后，maven会自动下载依赖的jar
+
+3. jdk版本为jdk1.8
+
+4. 启动工程，需运行/FamliyLibSys/src/main/java/com/ch/SpringBootDemoApplication.java 的main方法
+
+5. 本地访问地址：localhost:8080/login/login
+
+6. 用户名：admin 密码：123456
+
+7. 工程主要包括：首页，书架管理，阅读信息统计 等模块
+
+
 #### 小组构成
 - 产品管理组：[**张旭**](https://github.com/orgs/PkuDarkCom/people/zhangxu273)<br>
 - 前端设计小组：[**禹单单**](https://github.com/orgs/PkuDarkCom/people/lubeibi)，[**于飞**](https://github.com/orgs/PkuDarkCom/people/mumuCode)<br>
