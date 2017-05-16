@@ -139,9 +139,7 @@ Java期中作业家庭图书馆说明
 
 
 #### API设计
-Api采用RESTFul 风格设计<br>
-实现书籍信息的增删改查,返回格式为json
-
+实现书籍信息的增删改查,返回格式为json<br>
 [图书列表](https://github.com/PkuDarkCom/BookLibraryIntro/wiki/FLS%EF%BC%9A%E5%9B%BE%E4%B9%A6%E5%88%97%E8%A1%A8%E6%8E%A5%E5%8F%A3)<br>
 [图书详情](https://github.com/PkuDarkCom/BookLibraryIntro/wiki/FLS%EF%BC%9A%E5%9B%BE%E4%B9%A6%E8%AF%A6%E6%83%85%E6%8E%A5%E5%8F%A3)<br>
 [更新图书阅读状态](https://github.com/PkuDarkCom/BookLibraryIntro/wiki/FLS%EF%BC%9A%E6%9B%B4%E6%96%B0%E5%9B%BE%E4%B9%A6%E9%98%85%E8%AF%BB%E7%8A%B6%E6%80%81%E6%8E%A5%E5%8F%A3)<br>
