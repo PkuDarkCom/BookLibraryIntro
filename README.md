@@ -3,7 +3,7 @@ Java期中作业家庭图书馆说明
 
 
 ## 概述
-家庭图书管理系统 [原型设计](https://pkudarkcom.github.io/BookLibraryIntro/start.html#g=1&p=index)
+[原型设计](https://pkudarkcom.github.io/BookLibraryIntro/start.html#g=1&p=index)
 
 [演示demo](http://www.program.dog:8080/index.jsp)
 
