@@ -142,11 +142,11 @@ Java期中作业家庭图书馆说明
 Api采用RESTFul 风格设计<br>
 实现书籍信息的增删改查,返回格式为json
 
-[获取书籍信息](https://github.com/PkuDarkCom/BookLibraryIntro/wiki/API%EF%BC%9A%E8%8E%B7%E5%8F%96%E4%B9%A6%E7%B1%8D%E4%BF%A1%E6%81%AF)<br>
-[图书查询](https://github.com/PkuDarkCom/BookLibraryIntro/wiki/API%EF%BC%9A%E5%9B%BE%E4%B9%A6%E6%9F%A5%E8%AF%A2)<br>
-增加图书<br>
-修改图书<br>
-删除图书<br>
+[图书列表](https://github.com/PkuDarkCom/BookLibraryIntro/wiki/FLS%EF%BC%9A%E5%9B%BE%E4%B9%A6%E5%88%97%E8%A1%A8%E6%8E%A5%E5%8F%A3)<br>
+[图书详情](https://github.com/PkuDarkCom/BookLibraryIntro/wiki/FLS%EF%BC%9A%E5%9B%BE%E4%B9%A6%E8%AF%A6%E6%83%85%E6%8E%A5%E5%8F%A3)<br>
+[更新图书阅读状态](https://github.com/PkuDarkCom/BookLibraryIntro/wiki/FLS%EF%BC%9A%E6%9B%B4%E6%96%B0%E5%9B%BE%E4%B9%A6%E9%98%85%E8%AF%BB%E7%8A%B6%E6%80%81%E6%8E%A5%E5%8F%A3)<br>
+[登陆](https://github.com/PkuDarkCom/BookLibraryIntro/wiki/FLS%EF%BC%9A%E7%99%BB%E5%BD%95%E6%8E%A5%E5%8F%A3)<br>
+[获取书架列表](https://github.com/PkuDarkCom/BookLibraryIntro/wiki/FLS%EF%BC%9A%E8%8E%B7%E5%8F%96%E4%B9%A6%E6%9E%B6%E5%88%97%E8%A1%A8%E6%8E%A5%E5%8F%A3)<br>
 
 ## 实现与测试
 #### 关键技术实现
@@ -162,6 +162,7 @@ Api采用RESTFul 风格设计<br>
     <tr><td></td><td>设计api</td></tr>
     <tr><td></td><td>Github建立组织与仓库</td></tr>
     <tr><td>2017.4.27</td><td>提交原型设计</td></tr>
+    <tr><td>2017.5.3</td><td>更新api</td></tr>
 </table>
 
 ## 总结
