@@ -10,7 +10,7 @@ Java期中作业家庭图书馆说明
 - 产品管理组：[**张旭**](https://github.com/orgs/PkuDarkCom/people/zhangxu273)<br>
 - 前端设计小组：[**禹单单**](https://github.com/orgs/PkuDarkCom/people/lubeibi)，[**于飞**](https://github.com/orgs/PkuDarkCom/people/mumuCode)<br>
 - 后端设计小组：[**陈亨**](https://github.com/orgs/PkuDarkCom/people/adreamteama)，[任荣刚](https://github.com/orgs/PkuDarkCom/people/renrg)<br>
-- 测试组：**赵孝锋**，刘艳波，武小强，蔡先慧<br>
+- 测试组：**赵孝锋**，刘艳波，武小强，蔡先慧,顼伟燕<br>
 
 #### 小组分工
 - **产品管理组**<br>
@@ -50,7 +50,7 @@ Java期中作业家庭图书馆说明
 	* 按是否是电子书查询书籍数据
   * 按评分排序筛选书籍数据
 
-- **豆瓣爬虫模块**
+- **豆瓣爬虫模块**（选做）
 	* 根据isbn从豆瓣获取图书数据
   * 获取数据后入库
 
@@ -146,9 +146,6 @@ Java期中作业家庭图书馆说明
 [登陆](https://github.com/PkuDarkCom/BookLibraryIntro/wiki/FLS%EF%BC%9A%E7%99%BB%E5%BD%95%E6%8E%A5%E5%8F%A3)<br>
 [获取书架列表](https://github.com/PkuDarkCom/BookLibraryIntro/wiki/FLS%EF%BC%9A%E8%8E%B7%E5%8F%96%E4%B9%A6%E6%9E%B6%E5%88%97%E8%A1%A8%E6%8E%A5%E5%8F%A3)<br>
 
-## 实现与测试
-#### 关键技术实现
-#### 测试运行结果
 
 ## 开发日志
 <table>
@@ -161,6 +158,7 @@ Java期中作业家庭图书馆说明
     <tr><td></td><td>Github建立组织与仓库</td></tr>
     <tr><td>2017.4.27</td><td>提交原型设计</td></tr>
     <tr><td>2017.5.3</td><td>更新api</td></tr>
+    <tr><td>2017.5.16</td><td>持续开发</td></tr>
 </table>
 
 ## 总结
